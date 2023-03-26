@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Josefin+Sans:ital,wght@0,100;1,100;1,400&family=Lato:wght@100;300;400&family=Montserrat:wght@400;700&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,500;1,100&family=Roboto:wght@100&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: #333333;
+    padding: 30px 40px;
+    min-width: 470px;
+    color: #efefef;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;   
+}
+
+.input-group{
+    display: flex;
+    padding: 20px 0;
+    gap: 50px;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field label{
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.input-field input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #500ee9;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.input-field input:focus{
+    outline: none;
+    border-bottom: 4px solid #500ee9;
+}
+
+#generate{
+    background-color: #500ee9;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    width: 100%;
+    margin: 20px 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#result{
+    font-size: 50px;
+    font-weight: 600;
+}
